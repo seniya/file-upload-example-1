@@ -33,20 +33,14 @@ React.js 환경 내에서 **redux** 와 **redux-saga**를 이용한 구성 방�
 ## 폴더 구조
 ```
 project
-│   README.md
-│
-└───public
-│   
+│ README.md
+└───public 
 └───src
-|   |
-|   │   index.js
-|   │   App.js
+|   │ index.js
+|   │ App.js
 │   └───components
-|   |
 │   └───pages
-|   |
 │   └───service
-│      │
 |      └───actions
 |      └───reducers
 |      └───sagas
