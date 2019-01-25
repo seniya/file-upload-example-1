@@ -1,7 +1,12 @@
+
 # REACT - REDUX/SAGA, FIREBASE 연동 예제
 
 React.js 환경 내에서 **redux** 와 **redux-saga**를 이용한 구성 방법을 설명한다.
 또한 **Firebase** 를 이용하여 간단한 Backend 시스템을 구축하여 연동한다.
+
+## sample image
+![enter image description here](https://raw.githubusercontent.com/seniya/firebase-example-1/master/src/assets/firebase-example-1.PNG)
+
 
 ## Redux
 
@@ -20,7 +25,7 @@ React.js 환경 내에서 **redux** 와 **redux-saga**를 이용한 구성 방�
 클라우드 데이터베이스 서비스 및 기능 제공
 - **firebase** javascript 모듈 이용. (서비스 인증 및 통신, 기능 역할)
 
->BaaS(Backend as a Service) 혹은 PaaS(Platform as a Service)는 작업 시간을 단축하기 위해 도입됐지만 실제로 서버 개발 인력을 없애더라도 누군가는 서버를 담당해야 하므로 프론트엔드 개발자들이 서버를 담당해야 하는 것이 현실입니다. 물론 AWS 등이 좋은 서비스를 많이 제공하고는 있지만 전문적인 지식과 경험을 가진 개발자가 필요한 것은 마찬가지이기 때문입니다. 물론 클라이언트 개발자의 역량을 넓힐 수 있다는 점에서는 좋을 것으로 생각합니다.
+>BaaS(Backend as a Service) 혹은 PaaS(Platform as a Service)는 작업 시간을 단축하기 위해 도입됐지만 실제로 서버 개발 인력을 없애더라도 누군가는 서버를 담당해야 하므로 프론트엔드 개발자들이 서버를 담당해야 하는 것이 현실입니다. 물론 AWS 등이 좋은 서비스를 많이 제공하고는 있지만 전문적인 지식과 경험을 가진 개발자가 필요한 것은 마찬가지이기 때문입니다. 물론 클라이언트 개발자의 역량을 넓힐 수 있다는 점에서는 좋을 것으로 생각합니다.(인용)
 
 ## 고민해볼 문제
 
