@@ -38,18 +38,18 @@ project
 └───public
 │   
 └───src
-|	|
+|   |
 |   │   index.js
 |   │   App.js
 │   └───components
-|	|
+|   |
 │   └───pages
-|	|
+|   |
 │   └───service
-│       │
-|		└───actions
-|		└───reducers
-|		└───sagas
+│      │
+|      └───actions
+|      └───reducers
+|      └───sagas
 ```
 
 
