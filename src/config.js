@@ -8,10 +8,10 @@ export const env = 'local'
 
 // Config for firebase
 export const fbConfig = {
-  apiKey: "AIzaSyAisJm8E5IetbmUh5tDcpwZI_Ph64BGSEk",
-  authDomain: "react-board-bb9f0.firebaseapp.com",
-  databaseURL: "https://react-board-bb9f0.firebaseio.com",
-  projectId: "react-board-bb9f0",
-  storageBucket: "react-board-bb9f0.appspot.com",
-  messagingSenderId: "567595814045"
+  apiKey: "AIzaSyAa96j9Rvrjqft2ewwLXXonq7yF9cpWIgQ",
+  authDomain: "react-fileupload.firebaseapp.com",
+  databaseURL: "https://react-fileupload.firebaseio.com",
+  projectId: "react-fileupload",
+  storageBucket: "react-fileupload.appspot.com",
+  messagingSenderId: "543727054805"
 }

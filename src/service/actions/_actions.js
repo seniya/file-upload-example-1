@@ -4,12 +4,13 @@ export const getBlogs = () => ({
   type : GET_BLOGS
 })
 
-export const addBlog = ( { title, content, auther } ) =>  ({
+export const addBlog = ( { title, content, auther, files } ) =>  ({
   type : ADD_BLOG,
   payload : {    
     title,
     content,
-    auther
+    auther,
+    files
   }
 })
 

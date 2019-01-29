@@ -11,6 +11,9 @@ import createSagaMiddleware from 'redux-saga';
 import rootReducer from './service/reducers/_reducers';
 import rootSaga from './service/sagas/_saga';
 
+import firebase from 'firebase';
+import { fbConfig } from './config';
+
 
 const sagaMiddleware = createSagaMiddleware();
 const store = createStore(
@@ -18,6 +21,7 @@ const store = createStore(
   applyMiddleware(sagaMiddleware),
 );
 sagaMiddleware.run(rootSaga);
+
 
 
 ReactDOM.render(

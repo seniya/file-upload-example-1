@@ -3,10 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^3.9.1",
     "bootstrap": "^4.2.1",
+    "classnames": "^2.2.6",
     "firebase": "^5.8.0",
     "lodash": "^4.17.11",
     "moment": "^2.24.0",
+    "nanoid": "^2.0.1",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-dropzone": "^8.0.3",

@@ -13,7 +13,9 @@ class BlogCreate extends Component {
   static defaultProps = {};
   render() {
     return (
-      <PostCreate onAddPost={this.props.onAddPost}/>
+      <>
+        <PostCreate onAddPost={this.props.onAddPost}/>
+      </>
     )
   }
 }

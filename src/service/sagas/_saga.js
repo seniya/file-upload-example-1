@@ -1,6 +1,8 @@
 import { put, takeLatest, all } from 'redux-saga/effects';
 import { GET_BLOGS, ADD_BLOG, DELETE_BLOG, RECEIVE_BLOG } from '../actions/_actionType';
-import dbInstant from '../dbInstant';
+import firebase from '../firebase';
+
+const dbInstant = firebase.firestore();
 
 function* getBlogs() {
   const response = yield dbInstant.collection("blogs").get();  
