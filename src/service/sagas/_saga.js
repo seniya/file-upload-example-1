@@ -10,12 +10,12 @@ function* getBlogs() {
 }
 
 function* addBlog(action) {
-  const response = yield dbInstant.collection("blogs").add(action.payload);
+  yield dbInstant.collection("blogs").add(action.payload);
   yield put( { type:GET_BLOGS } );
 }
 
 function* deleteBlog(action) {
-  const response = yield dbInstant.collection("blogs").doc(action.id).delete()
+  yield dbInstant.collection("blogs").doc(action.id).delete()
   yield put( { type:GET_BLOGS } );
 }
 

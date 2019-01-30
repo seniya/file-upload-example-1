@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-import Dropzone from 'react-dropzone';
-import classNames from 'classnames';
-
 import FileAdd from '../components/FileAdd';
+
 
 class NewPost extends Component {
 
@@ -27,9 +25,6 @@ class NewPost extends Component {
   }
 
   handleFiles = (files) => {
-
-    console.log('handleFiles : ', files);
-
     let fileArray = []
     files.forEach( (element) => {
       let file = {
@@ -68,7 +63,6 @@ class NewPost extends Component {
       'content' : '',
       'auther' : '',
     })
-
     this.child.current.handleReset();
   }
 

@@ -3,16 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-
 import { createStore, applyMiddleware } from 'redux';
 import { Provider } from 'react-redux';
 import createSagaMiddleware from 'redux-saga';
-
 import rootReducer from './service/reducers/_reducers';
 import rootSaga from './service/sagas/_saga';
-
-import firebase from 'firebase';
-import { fbConfig } from './config';
 
 
 const sagaMiddleware = createSagaMiddleware();
@@ -21,8 +16,6 @@ const store = createStore(
   applyMiddleware(sagaMiddleware),
 );
 sagaMiddleware.run(rootSaga);
-
-
 
 ReactDOM.render(
   <Provider store= {store}>

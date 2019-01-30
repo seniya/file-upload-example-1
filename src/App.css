@@ -26,3 +26,84 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+
+.post-view {
+  border-bottom: 2px solid #eee;
+  background: #fafafa;
+  margin: .75rem auto;
+  padding: .6rem 1rem;
+  max-width: 500px;
+  border-radius: 7px;
+}
+
+
+.baseStyle {
+  width: 100%;
+  min-height: 200px;
+  border-width: 2px;
+  border-color: #6c6;
+  border-style: dashed;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.activeStyle {
+  border-style: solid;
+  border-color: #6c6;
+  background-color: #eee;
+}
+
+.rejectStyle {
+  border-style: solid;
+  border-color: #6c6;
+  background-color: #eee;
+}
+
+.thumbsContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 16px;
+}
+
+.thumb {
+  display: inline-flex;
+  border-radius: 2px;
+  border: 1px solid #333333;
+  margin-bottom: 8px;
+  margin-right: 8px;
+  width: 80px;
+  height: 60px;
+  padding: 4px;
+  box-sizing: border-box;
+}
+
+.thumbInner {
+  display: flex;
+  min-width: 0px;
+  overflow: hidden;
+}
+
+.img {
+  display: block;
+  width: auto;
+  height: 100%;
+}
+
+.progressDiv {
+  width: 70px;
+  height: 16px;
+  position: absolute;
+}
+
+.removeDiv {
+  width: 70px;
+  height: 16px;
+  position: absolute;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 12px;
+  font-weight: 900;
+  color: red;
+}
